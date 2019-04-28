@@ -32,4 +32,4 @@ let s:p.tabline.right = copy(s:p.normal.right)
 let s:p.normal.error = [ [ s:red, s:base023 ] ]
 let s:p.normal.warning = [ [ s:yellow, s:base02 ] ]
 
-let g:lightline#colorscheme#monokai-pro#palette = lightline#colorscheme#fill(s:p)
+let g:lightline#colorscheme#monokai_pro#palette = lightline#colorscheme#fill(s:p)
